@@ -1,0 +1,11 @@
+Package: ImmuneSpaceData
+Type: Package
+Title: A Data package for ImmuneSpace modules and reports
+Version: 0.1.1
+Author: Renan Sauteraud <rsautera@fhcrc.org>
+Maintainer: Renan Sauteraud <rsautera@fhcrc.org>
+VignetteBuilder: knitr
+Description: 
+License: GPL-2
+Suggests:
+    knitr
