@@ -14,7 +14,7 @@
 #' @format A \code{list} of \code{character} of length 1910, with one element
 #' per module.
 #' 
-#' @references http://www.broadinstitute.org/gsea/msigdb/collections.jsp
+#' @references http://www.broadinstitute.org/gsea/msigdb/genesets.jsp?collection=C7
 NULL
 
 #' @name emory_blood_transcript_modules
