@@ -2,7 +2,7 @@ Package: ImmuneSpaceData
 Type: Package
 Title: A Data package for ImmuneSpace modules and reports
 Description: Data and files to be used on www.immunespace.org
-Version: 0.2.1
+Version: 0.2.2
 Author: Renan Sauteraud <rsautera@fhcrc.org>
 Maintainer: Renan Sauteraud <rsautera@fhcrc.org>
 VignetteBuilder: knitr

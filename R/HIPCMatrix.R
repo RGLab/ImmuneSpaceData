@@ -40,7 +40,7 @@ makeMatrix <- function(con, gef, isGEO = FALSE){
   }else{
     inputFiles <- unique(gef$file_info_name)
     ext <- unique(file_ext(inputFiles))
-    inputFiles <- file.path("/share/files/", config$labkey.url.path, "@files/rawdata/gene_expression", inputFiles)
+    inputFiles <- file.path("/share/files/", con$config$labkey.url.path, "@files/rawdata/gene_expression", inputFiles)
     # Filetypes
     # After this step norm_exprs is a matrix with features as rownames and expsample as colnames
     if(length(ext) > 1){
