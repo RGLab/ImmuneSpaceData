@@ -28,6 +28,7 @@
 #' @name makeMatrix 
 #' @importFrom tools file_ext
 #' @importFrom GEOquery getGEO
+#' @export
 #' 
 makeMatrix <- function(con, gef, isGEO = FALSE){
   cohort <- unique(gef$arm_name)
